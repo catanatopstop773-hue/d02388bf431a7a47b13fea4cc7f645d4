@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "happ-vpn",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-10",
+
+  "kv_namespaces": [
+    {
+      "binding": "SERVERS",
+      "id": "37a7b0c835d94efca7ea3a2884931ae3"
+    }
+  ]
+}
